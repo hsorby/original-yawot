@@ -1,10 +1,12 @@
 
+#include "configure/version.h"
+
 namespace yawot
 {
 
 unsigned int version()
 {
-    return 0x000100;
+    return LILBRARY_VERSION;
 }
 
 }
