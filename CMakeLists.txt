@@ -10,6 +10,7 @@ set(YAWOT_VERSION_MINOR 1)
 set(YAWOT_VERSION_PATCH 0)
 set(LIBRARY_VERSION 0x${YAWOT_VERSION_MAJOR}${YAWOT_VERSION_MINOR}${YAWOT_VERSION_PATCH}
 
+# Add the configure version in to the list of source files so it will showup in IDEs.
 set(VERSION_CONFIG_IN "${PROJECT_SOURCE_DIR}/src/configure/version.in.h")
 set(HEADER_FILES ${PROJECT_SOURCE_DIR}/src/api/yawot/version.h ${VERSION_CONFIG_IN})
 set(SOURCE_FILES ${PROJECT_SOURCE_DIR}/src/version.cpp)
