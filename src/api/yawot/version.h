@@ -1,4 +1,6 @@
 
+#ifndef YAWOT_VERSION_H
+#define YAWOT_VERSION_H
 
 namespace yawot
 {
@@ -13,4 +15,6 @@ namespace yawot
 unsigned int version();
 
 }
+
+#endif /* YAWOT_VERSION_H */
 
