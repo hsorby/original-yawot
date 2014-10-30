@@ -6,7 +6,7 @@ namespace yawot
 
 unsigned int version()
 {
-    return LILBRARY_VERSION;
+    return LIBRARY_VERSION;
 }
 
 }
